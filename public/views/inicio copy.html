@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="/css/inicio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="modal">
+      <div class="modal__container">
+        <article class="modal__texts">
+          <h2 class="modal__title">¿Deseas gestionar tareas o proyectos?</h2>
+          <p class="modal__paragraph">
+            Nosotros somos TaskFlow,
+            <span class="modal__messages"
+              >Ayudamos a los usuarios a organizarse y gestionar tareas a través
+              de herramientas sencillas de utilizar.</span
+            >
+          </p>
+          <a href="/login" class="modal__cta">Ingresa a TaskFlow</a>
+        </article>
+
+        <figure class="modal__figure">
+          <img src="imagenes/modal.jpg" class="modal__hostinger" />
+        </figure>
+
+        <button class="modal__close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: #fff"
+          >
+            <path
+              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <header class="hero">
+      <nav class="nav container container--hero">
+        <img src="./imagenes/logo.png" class="nav__logo" />
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#nosotros" class="nav__link">Sobre Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="#aprender" class="nav__link">¿Qué ofrecemos?</a>
+          </li>
+          <li class="nav__item">
+            <a href="#sponsor" class="nav__link">Únete</a>
+          </li>
+        </ul>
+
+        <img src="./imagenes/menu.svg" class="nav__menu" />
+      </nav>
+
+      <section class="hero__main container container--hero">
+        <article class="hero__texts">
+          <h1 class="hero__title">¡Crear y organiza tareas!</h1>
+          <p class="hero__paragraph">
+            TaskFlow te ayudará a organizar tus pendientes, mediante el uso de
+            notas, calendario, entre otras herramientas.
+          </p>
+          <a href="/login" class="hero__cta">Empezar</a>
+        </article>
+
+        <figure class="hero__figure">
+          <img src="./imagenes/hero-img.png" class="hero__img" />
+        </figure>
+      </section>
+    </header>
+
+    <main class="main">
+      <section class="about" id="nosotros">
+        <article class="about__container container">
+          <figure class="about__figure">
+            <img src="./imagenes/icono.png" class="about__img" />
+          </figure>
+
+          <div class="about__texts">
+            <h2 class="subtitle">Somos TaskFlow</h2>
+            <p class="paragraph">
+              Sitio web creado en año 2023. Creado por un grupo de jóvenes de 8°
+              ciclo de la carrera de Ingeniería de Sistemas.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="learn container" id="aprender">
+        <h2 class="subtitle">¿Qué herramientas te ofrecemos?</h2>
+
+        <div class="learn__articles">
+          <article class="learn__article">
+            <img src="./imagenes/calendario.png" class="learn__img" />
+            <h2 class="learn__title">Calendario</h2>
+            <p class="paragraph">
+              Calendario para agregar eventes con horario correspondiente.
+            </p>
+          </article>
+
+          <article class="learn__article">
+            <img src="./imagenes/notas.png" class="learn__img" />
+            <h2 class="learn__title">Notas</h2>
+            <p class="paragraph">
+              Herramienta para recordar información importante, el cual puede
+              ser añadido al calendario si el usuario lo desea.
+            </p>
+          </article>
+
+          <article class="learn__article">
+            <img src="./imagenes/videollamada.png" class="learn__img" />
+            <h2 class="learn__title">videollamada grupal</h2>
+            <p class="paragraph">
+              Los usuarios podrán comunicarse entre si a través de
+              videollamadas.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sponsor" id="sponsor">
+        <div class="sponsor__main container">
+          <article class="sponsor__texts">
+            <h1 class="subtitle">¡Empiza a organizarte!</h1>
+            <p class="paragraph">
+              Empieza a organizar tus tareas y proyectos con TaskFlow
+            </p>
+            <a href="/login" class="sponsor__cta">Accede a TaskFlow</a>
+          </article>
+
+          <figure class="sponsor__figure">
+            <img src="./imagenes/icono.png" class="sponsor__img" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="statistics">
+        <div class="statistics__container container">
+          <article class="statistics__item">
+            <h3 class="statistics__title">+1.1 millones</h3>
+            <p class="paragraph">
+              Certificados en Project Management Professional.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="/JS/inicio.js"></script>
+  </body>
+</html>

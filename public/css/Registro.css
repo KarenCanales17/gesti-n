@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    background: linear-gradient(150deg, #9c9cef, #fff);
+    height: 100vh;
+}
+
+.registro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 320px;
+    background: white;
+    border-radius: 10px;
+}
+
+.login-box {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.login-box form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+#username,
+#email,
+#password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#username::placeholder,
+#email::placeholder,
+#password::placeholder {
+    color: #999;
+}
+
+#username:focus,
+#email:focus,
+#password:focus {
+    border-color: #0077b6;
+    outline: none;
+}
+
+#signUp {
+    background-color: #5454d4; /* Cambia el color de fondo a azul, puedes usar otro color */
+    color: #fff; /* Cambia el color del texto a blanco */
+    padding: 10px; /* Añade un espacio alrededor del contenido del div */
+    text-align: center; /* Centra el contenido horizontalmente */
+    border-radius: 5px;
+}
+
+#signUp a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #fff; /* Cambia el color del enlace a blanco */
+}
+
+#signUp:hover {
+    background-color: #ff6b3f;
+}
+
+.registrarse {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.registrarse a {
+    color: #db241b;
+    text-decoration: none;
+}
+
+.registrarse a:hover {
+    text-decoration: underline;
+}
+
+.web a {
+    color: #0e0d0d;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.web a:hover {
+    text-decoration: underline;
+}

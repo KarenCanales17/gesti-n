@@ -1,0 +1,84 @@
+.container-fluid {
+  background: #7264a5;
+  color: black;
+  padding: 15px;
+  font-family: 'Archivo', sans-serif
+}
+
+.container-fluid a{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.card-body h1{
+  font-weight: bold;
+}
+
+.card label{
+  font-size: 17px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo', sans-serif;
+  background: #eeebf9;
+  height: 100vh;
+  }
+  
+  #video-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 150px;
+    padding-left: 200px;
+    margin-top: 50px;
+  }
+  
+  video {
+    max-width: 45%; /* Ajusta el tamaño de los videos según tus necesidades */
+    border-radius: 8px;
+    border: 2px solid #3498db; /* Añade bordes redondeados a los videos */
+  }
+
+  #button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #start-call {
+    background-color: #82c3a8; /* Cambia el color del botón según tus preferencias */
+    color: #fff;
+    margin-left: 550px; /* Establece el margen izquierdo como auto */
+    margin-right: auto;
+    font-weight: bold;
+  }
+  #start-call:hover {
+    background-color: #45a049;
+  }
+  
+  #end-call {
+    background-color: #ff6347; /* Cambia el color del botón según tus preferencias */
+    color: #fff;
+    margin-left: auto; /* Establece el margen izquierdo como auto */
+    margin-right: 650px;
+  }
+
+  #end-call:hover{
+    background-color: #8b0000;
+  }
+  
+  /* Puedes añadir estilos adicionales según sea necesario */
+  

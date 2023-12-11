@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Registro.css" />
+  </head>
+
+  <body>
+    <div class="registro">
+      <div class="login-box">
+        <h1>Registro de Usuario</h1>
+        <form method="post">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Nombre de Usuario"
+          />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Correo Electrónco"
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Contraseña"
+          />
+
+          <div
+            type="submit"
+            id="signUp"
+            name="signup_submit"
+            value="Registrarse"
+          >
+            <a href="/login">Registrarse</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="JS/firebase-Registro.js"></script>
+  </body>
+</html>

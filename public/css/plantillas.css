@@ -1,0 +1,88 @@
+
+.container-all{
+  display: flex; /* Utiliza flexbox para alinear horizontalmente los cards */
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.container{
+  display: flex; /* Utiliza flexbox para alinear horizontalmente los cards */
+  justify-content: space-between;
+}
+
+.card1{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.card2{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.card3{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.container2{
+  display: flex; /* Utiliza flexbox para alinear horizontalmente los cards */
+  justify-content: space-between;
+}
+
+.card4{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.card5{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.card6{
+  width: 18rem; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Centra horizontalmente el card */
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+}

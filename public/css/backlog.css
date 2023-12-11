@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+
+#dropdownMenu {
+    list-style: none;
+    padding: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#dropdownMenu li {
+    padding: 10px;
+}
+
+#dropdownMenu li:hover {
+    background-color: #ddd;
+}

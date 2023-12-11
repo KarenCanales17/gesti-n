@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint Planner</title>
+    <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"></script>
+  </head>
+  <body>
+    <h1>Sprint</h1>
+    <form id="todoForm">
+      <div>
+        <label for="storyPoints">Story Points:</label>
+        <input type="number" id="storyPoints" name="storyPoints" required />
+      </div>
+      <div>
+        <label for="storyTitle">Story Title:</label>
+        <input type="text" id="storyTitle" name="storyTitle" required />
+      </div>
+      <div>
+        <label for="storyDescription">Story Description:</label>
+        <textarea
+          id="storyDescription"
+          name="storyDescription"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Add Story</button>
+      </div>
+    </form>
+
+    <script src="/JS/planner.js"></script>
+  </body>
+</html>
